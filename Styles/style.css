@@ -303,3 +303,62 @@ h1 {
   font-size: 20px;
   font-weight: 500;
 }
+
+/* Holiday Section Styles  Using Position*/
+.holiday-container {
+  width: 1320px;
+  height: 662.07px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  /* background-image: url("../Assets/images/Rectangle\ 2.png"); */
+  /* border: 10px solid; */
+  /* background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  justify-content: space-between; */
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.solid-color {
+  width: 1320px;
+  height: 229px;
+  background-color: #ff0000;
+  position: absolute;
+  top: 76.5%;
+  border-radius: 16px 0 16px 16px;
+}
+
+.box-img {
+  width: 674.82px;
+  height: 577.96px;
+  margin-right: 80px;
+  position: relative;
+  top: 10%;
+  z-index: 1;
+  
+}
+
+.girl-container{
+    width: 429px;
+    height: 433px;
+}
+
+.girl-container >img {
+    position: relative;
+    left: 0%;
+    top: 17%;
+}
+
+.discount-img {
+  width: 305.69px;
+  height: 305.69px;
+  position: absolute;
+  bottom: 30%;
+  left: 55%;
+  z-index: 1;
+  /* background-image: url("../Assets/images/Rectangle 1.png"); */
+  /* background-size: contain;
+  background-position: right; */
+}
