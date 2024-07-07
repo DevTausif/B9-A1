@@ -151,3 +151,46 @@ h1 {
   width: 349.16px;
   height: 464.65px;
 }
+
+/* location info start */
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  border: 10px solid;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  width: 70%;
+  border: none;
+}
+
+.location-info {
+  width: 549px;
+  height: 272px;
+  text-align: center;
+  margin-top: 170px;
+}
+
+.location-info h1 p {
+  color: black;
+}
+
+.btn-join {
+  margin-top: 48px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  background: rgb(255, 0, 0);
+  width: 167px;
+  height: 56px;
+  border: none;
+  border-radius: 16px;
+  padding: 16px 32px 16px 32px;
+}
