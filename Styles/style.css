@@ -231,13 +231,13 @@ h1 {
   margin-top: 22px;
 }
 
-.celebration-img {
+/* .celebration-img {
   width: 50%;
   height: 50%;
   top: 3067.08px;
   bottom: -2968.92px;
   margin: 10px;
-}
+} */
 
 .party-img {
   width: 463px;
@@ -255,6 +255,7 @@ h1 {
   padding: 30px;
   outline: 15px solid #ff0000;
   border-radius: 50%;
+  
 }
 .year {
   width: 276px;
